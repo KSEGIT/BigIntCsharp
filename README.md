@@ -74,7 +74,7 @@ using System.Numerics;
 using System.Globalization;
 
 // Use the static method for one-off conversions
-BigInteger int96Value = BigInteger.Parse("00000003E800000000000000980680", NumberStyles.HexNumber);
+BigInteger int96Value = BigInteger.Parse("00000003E900000000000000A80740", NumberStyles.HexNumber);
 DateTime result = Int96TimestampParser.DateFromInt96Timestamp2(int96Value);
 
 Console.WriteLine($"Parsed DateTime: {result:yyyy-MM-dd HH:mm:ss.fff}");
@@ -164,7 +164,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**Daniel Kiska** (DanyITnerd)
+**Daniel Kiska** ([DanyITnerd](https://github.com/DanyITnerd))
 
 ## 🙏 Acknowledgments
 
